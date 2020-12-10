@@ -1,0 +1,2 @@
+What is git push command?
+The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo. ... Remote branches are configured using the git remote command. Pushing has the potential to overwrite changes, caution should be taken when pushing.
