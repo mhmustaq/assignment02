@@ -1,0 +1,9 @@
+How to generate ssh key in windows?
+Windows
+Just follow these 5 steps:
+
+Go to this address, and download Git for Windows, after the download install it with default settings
+Open Git Bash that you just installed (Start->All Programs->Git->Git Bash)
+Type in the following: ssh-keygen -t rsa (when prompted, enter password, key name can stay the same)
+Open file your_home_directory/.ssh/id_rsa.pub with your favorite text editor, and copy contents to your Git repository’s keys field (GitHub, beanstalk, or any other repository provider), under your account.
+Be sure that you don’t copy any whitespace while copying public key’s content (id_rsa.pub)
